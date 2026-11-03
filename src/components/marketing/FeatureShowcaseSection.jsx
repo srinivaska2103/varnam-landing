@@ -428,7 +428,7 @@ export default function FeatureShowcaseSection() {
         'Easily upgrade, manage payment plans, or unlock premium features as your clientele expands. Backed by secure automated billing infrastructure and dedicated support.',
       badge: 'Account Control',
       points: [
-        'Seamless online billing for Starter and Growth tiers',
+        'Seamless online billing for Basic and Growth tiers',
         'Instant feature unlocking upon upgrade',
         'Download official subscription receipts directly from your dashboard',
       ],
@@ -437,8 +437,8 @@ export default function FeatureShowcaseSection() {
         tag: 'Subscription & Entitlements',
         accentColor: 'text-purple-600',
         items: [
-          { title: 'Current Plan: Growth Tier (₹999/mo)', subtitle: 'Website Inquiry & Shareable Social Bio Link active', badge: 'Active', badgeColor: 'bg-emerald-100 text-emerald-800' },
-          { title: 'Upgrade Option: Premium Luxury (₹29,999)', subtitle: 'Includes custom domain + dedicated hosting server', badge: 'Available', badgeColor: 'bg-purple-100 text-purple-800' },
+          { title: 'Current Plan: Growth Tier (₹999/mo)', subtitle: 'Branded Website & Online Enquiry Integration active', badge: 'Active', badgeColor: 'bg-emerald-100 text-emerald-800' },
+          { title: 'Upgrade Option: Custom / Premium (₹29,999)', subtitle: 'Includes custom domain, dedicated hosting & own WhatsApp number', badge: 'Available', badgeColor: 'bg-purple-100 text-purple-800' },
           { title: 'Official Billing Receipts', subtitle: 'Monthly payment receipts downloadable with single click', badge: 'Compliant', badgeColor: 'bg-blue-100 text-blue-800' },
         ],
         highlightLabel: 'Next Renewal',

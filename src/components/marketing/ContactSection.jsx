@@ -37,22 +37,22 @@ export default function ContactSection() {
   const planOptions = [
     {
       id: 'PREMIUM',
-      label: 'PREMIUM (₹29,999) – Branded Website & Domain',
-      tagline: 'Custom domain, dedicated hosting server & VIP concierge',
+      label: 'CUSTOM / PREMIUM (₹29,999) – Full Luxury Suite & WhatsApp',
+      tagline: 'Custom domain, dedicated hosting & own WhatsApp Business number',
       icon: Crown,
       color: 'text-purple-600 bg-purple-50',
     },
     {
       id: 'GROWTH',
       label: 'GROWTH (₹999/month) – Online Lead Acquisition',
-      tagline: 'Website inquiry form & shareable social bio link',
+      tagline: 'Branded public studio website & online enquiry integration',
       icon: Zap,
       color: 'text-[#FF6B00] bg-[#FFF0E5]',
     },
     {
-      id: 'STARTER',
-      label: 'STARTER (₹599/month) – Core Studio Operations',
-      tagline: 'Bookings, calendar, CRM, quotations & receipts',
+      id: 'BASIC',
+      label: 'BASIC (₹599/month) – Core Studio Operations',
+      tagline: 'Bookings, calendar, CRM, quotations & shareable enquiry form',
       icon: ShieldCheck,
       color: 'text-emerald-600 bg-emerald-50',
     },

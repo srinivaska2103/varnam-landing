@@ -1056,7 +1056,7 @@ export default function WebsitePage() {
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div>
             <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-stone-100 text-stone-700 border border-stone-200 mb-2">
-              Current Plan: Starter (₹599/mo)
+              Current Plan: Basic (₹599/mo)
             </div>
             <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-stone-900">
               Branded Website & Portfolio

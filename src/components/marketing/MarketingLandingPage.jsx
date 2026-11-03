@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import MarketingNavbar from '@/components/marketing/MarketingNavbar';
 import HeroSection from '@/components/marketing/HeroSection';
 import TrustAndValueSection from '@/components/marketing/TrustAndValueSection';
@@ -18,6 +18,12 @@ import VarnamAIFloatingAssistant from '@/components/marketing/VarnamAIFloatingAs
 import PWAInstallPrompt from '@/components/marketing/PWAInstallPrompt';
 
 export default function MarketingLandingPage() {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   return (
     <div
       className="min-h-screen bg-[#FFF8F0] text-[#1F2937] font-sans antialiased selection:bg-[#FF6B00] selection:text-white"
@@ -65,10 +71,10 @@ export default function MarketingLandingPage() {
       <MarketingFooter />
 
       {/* 14. Floating Circular VARNAM AI Assistant Icon */}
-      <VarnamAIFloatingAssistant />
+      {mounted && <VarnamAIFloatingAssistant />}
 
       {/* 15. PWA Install Experience */}
-      <PWAInstallPrompt />
+      {mounted && <PWAInstallPrompt />}
     </div>
   );
 }

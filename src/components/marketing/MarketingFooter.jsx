@@ -25,9 +25,9 @@ export default function MarketingFooter() {
   ];
 
   const planLinks = [
-    { label: 'Starter Plan (₹599/mo)', href: '#pricing' },
+    { label: 'Basic Plan (₹599/mo)', href: '#pricing' },
     { label: 'Growth Plan (₹999/mo)', href: '#pricing' },
-    { label: 'Premium Enterprise (₹29,999)', href: '#pricing' },
+    { label: 'Custom / Premium (₹29,999)', href: '#pricing' },
     { label: 'Feature Comparison', href: '#features' },
   ];
 

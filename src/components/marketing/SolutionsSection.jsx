@@ -36,7 +36,7 @@ export default function SolutionsSection() {
         'Automatic payment advance tracking and receipt generation',
         'Never double-book high-value Muhurtham morning dates',
       ],
-      recommendedPlan: 'Starter or Growth',
+      recommendedPlan: 'Basic or Growth',
       stats: { primary: '5-15', label: 'Weddings / Month', metric: '₹1.5L - ₹4.5L Revenue' },
       simulation: {
         title: 'Freelance Artist Command Box',

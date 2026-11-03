@@ -5,20 +5,22 @@
 
 export const PLAN_TIERS = {
   NONE: 'NONE',
-  STARTER: 'STARTER',
+  BASIC: 'BASIC',
+  STARTER: 'BASIC', // Alias for backward compatibility
   GROWTH: 'GROWTH',
   PREMIUM: 'PREMIUM',
 };
 
 export const PLAN_RANKS = {
   NONE: 0,
-  STARTER: 1,
+  BASIC: 1,
+  STARTER: 1, // Alias for backward compatibility
   GROWTH: 2,
   PREMIUM: 3,
 };
 
 export const FEATURES = {
-  // Starter Tiers (Core Studio Operations)
+  // Basic Tiers (Core Studio Operations)
   DASHBOARD: 'DASHBOARD_ANALYTICS',
   CUSTOMERS: 'CUSTOMER_MANAGEMENT',
   ENQUIRIES: 'ENQUIRY_MANAGEMENT',
@@ -40,9 +42,11 @@ export const FEATURES = {
   PORTFOLIO: 'PORTFOLIO_SHOWCASE',
   PUBLIC_SERVICES: 'PUBLIC_SERVICE_CATALOGUE',
 
-  // Premium Tiers (Custom Domain & Dedicated Cloud)
+  // Premium Tiers (Custom Domain, Dedicated Cloud & Own WhatsApp Business Number)
   CUSTOM_DOMAIN: 'CUSTOM_DOMAIN_SUPPORT',
   DEDICATED_HOSTING: 'DEDICATED_HOSTING',
+  OWN_WHATSAPP_NUMBER: 'OWN_WHATSAPP_NUMBER',
+  WHATSAPP_CAMPAIGNS: 'WHATSAPP_CAMPAIGNS',
 };
 
 /**
@@ -156,11 +160,13 @@ export function hasTierAccess(currentTier, requiredTier) {
 export function getRequiredPlanName(requiredTier) {
   switch (requiredTier) {
     case PLAN_TIERS.PREMIUM:
-      return 'Premium (₹29,999)';
+      return 'Custom / Premium (₹29,999)';
     case PLAN_TIERS.GROWTH:
       return 'Growth (₹999/mo)';
-    case PLAN_TIERS.STARTER:
-      return 'Starter (₹599/mo)';
+    case PLAN_TIERS.BASIC:
+    case 'BASIC':
+    case 'STARTER':
+      return 'Basic (₹599/mo)';
     default:
       return 'Active Plan';
   }

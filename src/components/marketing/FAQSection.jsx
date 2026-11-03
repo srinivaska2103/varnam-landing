@@ -41,7 +41,7 @@ export default function FAQSection() {
     {
       question: 'How do subscriptions work?',
       answer:
-        'VARNAM offers transparent pricing with no hidden commissions. Starter is available at ₹599/month for core studio operations. Growth is ₹999/month and unlocks online client acquisition via public website forms. The Premium suite is ₹29,999 and includes a custom domain website, dedicated hosting, and VIP concierge onboarding. Subscriptions are billed securely through encrypted payment processing.',
+        'VARNAM offers transparent pricing with no hidden commissions. Basic is available at ₹599/month for core studio operations and shareable enquiry forms. Growth is ₹999/month and unlocks your branded public studio website and online catalogue enquiries. The Custom / Premium suite is ₹29,999 and includes custom domain configuration, dedicated server hosting, 1-year free domain/hosting, and own WhatsApp Business number integration (Meta Cloud API).',
     },
     {
       question: 'How can I contact support?',

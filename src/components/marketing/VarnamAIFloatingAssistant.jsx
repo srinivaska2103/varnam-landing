@@ -31,7 +31,7 @@ const PREDEFINED_ANSWERS = {
     'VARNAM features a specialized conflict-free Muhurtham Calendar Engine. It tracks wedding ceremonies, early morning Muhurtham slots, reception look tests, and trial schedules with automated clash prevention and artist travel buffers.',
 
   'what subscription plans are available?':
-    'VARNAM offers flexible plans:\n• Starter Plan: ₹599/month for solo artists.\n• Growth Plan: ₹999/month for expanding salons.\n• Premium Tier: ₹29,999 (one-time license) including your own custom branded website, domain registration, and VIP concierge onboarding.',
+    'VARNAM offers flexible plans:\n• Basic Plan: ₹599/month for core studio operations and shareable enquiry forms.\n• Growth Plan: ₹999/month for branded public websites & online lead acquisition.\n• Custom / Premium Plan: ₹29,999 (one-time license) including your own custom domain, dedicated hosting server, and own WhatsApp Business number integration (Meta Cloud API).',
 
   'can i manage customer enquiries?':
     'Yes! VARNAM automatically captures bridal leads from WhatsApp, website forms, and phone inquiries. You can view event dates, venue details, guest counts, and seamlessly transition leads into confirmed bookings and payment receipts.',
