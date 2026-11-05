@@ -23,6 +23,10 @@ COPY . .
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
 
+# Build arguments for public endpoints
+ARG NEXT_PUBLIC_APP_URL=https://varnam.vexatech.in
+ENV NEXT_PUBLIC_APP_URL=$NEXT_PUBLIC_APP_URL
+
 # Build the Next.js landing page application
 RUN npm run build
 
@@ -56,4 +60,3 @@ HEALTHCHECK --interval=30s --timeout=5s --start-period=30s --retries=3 \
   CMD curl -f http://localhost:3002/ || exit 1
 
 CMD ["npm", "start", "--", "-p", "3002"]
-
